@@ -15,6 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.udemyapp.course.model.Description;
 import com.udemyapp.course.service.DescriptionService;
 
+/**
+ * @author JeevaR
+ *
+ */
 @RestController
 @RequestMapping("/udemy-api")
 public class DescriptionController {
