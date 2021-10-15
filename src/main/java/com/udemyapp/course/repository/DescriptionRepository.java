@@ -5,6 +5,10 @@ import org.springframework.stereotype.Repository;
 
 import com.udemyapp.course.model.Description;
 
+/**
+ * @author JeevaR
+ *
+ */
 @Repository
 public interface DescriptionRepository extends JpaRepository<Description, Integer> {
 

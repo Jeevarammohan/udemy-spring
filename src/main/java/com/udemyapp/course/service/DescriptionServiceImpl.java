@@ -7,6 +7,10 @@ import org.springframework.stereotype.Service;
 import com.udemyapp.course.model.Description;
 import com.udemyapp.course.repository.DescriptionRepository;
 
+/**
+ * @author JeevaR
+ *
+ */
 @Service
 public class DescriptionServiceImpl implements DescriptionService {
 

@@ -5,6 +5,10 @@ import java.util.List;
 import com.udemyapp.course.model.Course;
 import com.udemyapp.exception.CourseNotFoundException;
 
+/**
+ * @author JeevaR
+ *
+ */
 public interface CourseService {
 
 	Course addCourse(Course course,Integer instructorId);

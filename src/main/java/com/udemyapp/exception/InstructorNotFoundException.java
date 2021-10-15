@@ -1,5 +1,9 @@
 package com.udemyapp.exception;
 
+/**
+ * @author JeevaR
+ *
+ */
 public class InstructorNotFoundException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;

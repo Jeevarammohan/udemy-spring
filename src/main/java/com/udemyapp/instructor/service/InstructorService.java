@@ -5,6 +5,10 @@ import java.util.List;
 import com.udemyapp.exception.InstructorNotFoundException;
 import com.udemyapp.instructor.model.Instructor;
 
+/**
+ * @author JeevaR
+ *
+ */
 public interface InstructorService {
 
 	Instructor register(Instructor instructor);

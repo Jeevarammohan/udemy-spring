@@ -5,6 +5,10 @@ import java.util.List;
 import com.udemyapp.exception.StudentNotFoundException;
 import com.udemyapp.student.model.Student;
 
+/**
+ * @author JeevaR
+ *
+ */
 public interface StudentService {
 
 	Student register(Student student);

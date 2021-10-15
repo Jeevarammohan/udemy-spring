@@ -8,6 +8,10 @@ import org.springframework.stereotype.Repository;
 
 import com.udemyapp.course.model.Course;
 
+/**
+ * @author JeevaR
+ *
+ */
 @Repository
 public interface CourseRepository extends JpaRepository<Course, Integer> {
 

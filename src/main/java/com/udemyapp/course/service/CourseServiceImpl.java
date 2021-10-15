@@ -11,6 +11,10 @@ import com.udemyapp.exception.CourseNotFoundException;
 import com.udemyapp.instructor.model.Instructor;
 import com.udemyapp.instructor.repository.InstructorRepository;
 
+/**
+ * @author JeevaR
+ *
+ */
 @Service
 public class CourseServiceImpl implements CourseService {
 
