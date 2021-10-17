@@ -91,15 +91,6 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 		return ResponseEntity.status(HttpStatus.EXPECTATION_FAILED).body(errors);
 	}
 
-	@ExceptionHandler(CredentialNotFoundException.class)
-	protected ResponseEntity<Object> handleCredentialNotFound(CredentialNotFoundException ex) {
-		String message = ex.getMessage();
-		LocalDateTime timeStamp = LocalDateTime.now();
-		String error = "Credential Not Found";
-		APIErrors errors = new APIErrors(timeStamp, message, HttpStatus.EXPECTATION_FAILED.value(), error);
-		return ResponseEntity.status(HttpStatus.EXPECTATION_FAILED).body(errors);
-	}
-
 	@ExceptionHandler(InstructorNotFoundException.class)
 	protected ResponseEntity<Object> handleInstructorNotFound(InstructorNotFoundException ex) {
 		String message = ex.getMessage();
